@@ -1,0 +1,41 @@
+.img-style {
+    height: 300px;
+    width: 300px;
+}
+
+.update-information {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.update-card {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.update-btn {
+    background-color: mediumslateblue;
+    color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.update-btn:hover {
+    color: black;
+    background-color: white;
+}
+
+@media screen and (max-width: 576px) {
+    .update-card {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+}
